@@ -1,0 +1,34 @@
+/* Add this CSS to your existing style.css file */
+
+/* Centering the profile box on the page */
+.profile-box {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling the founder photo */
+.founder-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Styling the name */
+.profile-box h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Styling the description text */
+.profile-box p {
+    font-size: 1rem;
+    color: #555;
+}
