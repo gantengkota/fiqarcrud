@@ -14,6 +14,7 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laporan Masalah</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.jpeg">    
     <link rel="stylesheet" href="../css/style.css"> <!-- Update path to the new location -->
     <style>
         /* General popup styling */
