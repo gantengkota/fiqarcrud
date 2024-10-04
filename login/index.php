@@ -50,6 +50,7 @@ if (isset($_POST['submit'])) {
                 <button name="submit" class="btn">Login</button>
             </div>
             <p class="login-register-text">Anda belum punya akun? <a href="register.php">Register</a></p>
+            <p class="login-register-text">Anda admin? <a href="../admin/login_admin/index.php">Login Admin</a></p>
         </form>
     </div>
 </body>

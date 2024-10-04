@@ -58,7 +58,7 @@ $result = mysqli_query($conn, $query);
 <head>
     <meta charset="UTF-8">
     <title>Edit dan Hapus Data Tempat PKL <?php echo strtoupper($jurusan); ?></title>
-    <link rel="stylesheet" href="style_admin.css">
+    <link rel="stylesheet" href="../css/styleadmin.css">
 </head>
 <body>
     <div class="container">

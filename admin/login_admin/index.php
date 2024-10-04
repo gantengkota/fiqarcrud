@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Login Admin</title>
-    <link rel="stylesheet" href="style_admin.css">
+    <link rel="stylesheet" href="../css/styleadmin.css">
 </head>
 <body>
     <form action="" method="POST">
@@ -45,7 +45,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <br>
         <button type="submit">Login</button>
     </form>
+
+    <!-- Button for going back to dashboard, positioned below the login button -->
+    <form action="dashboard.php" method="GET">
+        <button type="submit" style="margin-top: 10px;">Kembali ke Dashboard</button>
+    </form>
     
+    <!-- Display popup message -->
     <?php if ($message): ?>
         <script>
             alert("<?php echo $message; ?>");

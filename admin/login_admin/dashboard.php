@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Tambah Data Tempat PKL</title>
-    <link rel="stylesheet" href="style_admin.css">
+    <link rel="stylesheet" href="../css/styleadmin.css">
 </head>
 <body>
     <div class="container">
